@@ -56,16 +56,5 @@ t = "最终得分：" + str(st.session_state['临时招募分'])
 st.text(t)
 
 placeholder = st.empty()
+placeholder.markdown("<div height='20'></div>", unsafe_allow_html=True)
 st.button("归零", on_click = reset_callback, args = [session_state_lst, placeholder])
-
-
-# s = f"""
-# <button kind="secondary" data-testid="baseButton-secondary" 
-# class="st-emotion-cache-7ym5gk ef3psqc12"
-# onclick="playSound()">
-# <div data-testid="stMarkdownContainer" class="st-emotion-cache-1vbkxwb e1nzilvr5">
-# <p>归零html</p></div>
-# <audio src=""E:/Tut/ArkRogueCal/ArkRogueCal/assets/reset.wav""></audio>
-# </button>
-# """
-# st.markdown(s, unsafe_allow_html=True) 
