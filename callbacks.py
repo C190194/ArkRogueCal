@@ -47,7 +47,7 @@ def reset_callback(session_state_lst, placeholder):
     for ss in session_state_lst:
         st.session_state[ss] = 0
     
-    time.sleep(0.8)
+    time.sleep(0.9)
     placeholder.markdown("<div height='20'></div>", unsafe_allow_html=True)
     # placeholder.empty()
 
