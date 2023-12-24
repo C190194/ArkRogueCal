@@ -1,5 +1,7 @@
 import streamlit as st
 
+from playsound import playsound
+
 import pandas as pd
 import numpy as np
 
