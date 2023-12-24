@@ -1,8 +1,5 @@
 import streamlit as st
 
-from playsound import playsound
-import base64
-
 import pandas as pd
 import numpy as np
 
