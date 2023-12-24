@@ -7,6 +7,9 @@ import numpy as np
 
 from PIL import Image
 
+omport os
+os.system('sudo apt-get install python3-gi')
+
 # paper_result_img = Image.open('paper_result.png')
 # st.image(paper_result_img)
 
